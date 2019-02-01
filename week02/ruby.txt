@@ -1,0 +1,1847 @@
+execve("/usr/bin/ruby", ["ruby", "hello_ruby.rb"], 0x7ffc90c15128 /* 52 vars */) = 0
+brk(NULL)                               = 0x5561e67b3000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=71786, ...}) = 0
+mmap(NULL, 71786, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7a8d28e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P-\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=2758912, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7a8d28c000
+mmap(NULL, 4919136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7a8cbc8000
+mprotect(0x7f7a8ce63000, 2093056, PROT_NONE) = 0
+mmap(0x7f7a8d062000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29a000) = 0x7f7a8d062000
+mmap(0x7f7a8d069000, 65376, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7a8d069000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7a8c7d7000
+mprotect(0x7f7a8c9be000, 2097152, PROT_NONE) = 0
+mmap(0x7f7a8cbbe000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f7a8cbbe000
+mmap(0x7f7a8cbc4000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7a8cbc4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7a8c5b8000
+mprotect(0x7f7a8c5d2000, 2093056, PROT_NONE) = 0
+mmap(0x7f7a8c7d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f7a8c7d1000
+mmap(0x7f7a8c7d3000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7a8c7d3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\223\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=526688, ...}) = 0
+mmap(NULL, 2621888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7a8c337000
+mprotect(0x7f7a8c3b6000, 2097152, PROT_NONE) = 0
+mmap(0x7f7a8c5b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7f000) = 0x7f7a8c5b6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7a8c133000
+mprotect(0x7f7a8c136000, 2093056, PROT_NONE) = 0
+mmap(0x7f7a8c335000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f7a8c335000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libcrypt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=39208, ...}) = 0
+mmap(NULL, 2322976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7a8befb000
+mprotect(0x7f7a8bf04000, 2093056, PROT_NONE) = 0
+mmap(0x7f7a8c103000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f7a8c103000
+mmap(0x7f7a8c105000, 184864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7a8c105000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7a8d28a000
+mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7a8bb5d000
+mprotect(0x7f7a8bcfa000, 2093056, PROT_NONE) = 0
+mmap(0x7f7a8bef9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7f7a8bef9000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7a8d287000
+arch_prctl(ARCH_SET_FS, 0x7f7a8d287740) = 0
+mprotect(0x7f7a8cbbe000, 16384, PROT_READ) = 0
+mprotect(0x7f7a8bef9000, 4096, PROT_READ) = 0
+mprotect(0x7f7a8c103000, 4096, PROT_READ) = 0
+mprotect(0x7f7a8c335000, 4096, PROT_READ) = 0
+mprotect(0x7f7a8c5b6000, 4096, PROT_READ) = 0
+mprotect(0x7f7a8c7d1000, 4096, PROT_READ) = 0
+mprotect(0x7f7a8d062000, 24576, PROT_READ) = 0
+mprotect(0x5561e4fc0000, 4096, PROT_READ) = 0
+mprotect(0x7f7a8d2a0000, 4096, PROT_READ) = 0
+munmap(0x7f7a8d28e000, 71786)           = 0
+set_tid_address(0x7f7a8d287a10)         = 9393
+set_robust_list(0x7f7a8d287a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f7a8c5bdcb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c5ca890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f7a8c5bdd50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f7a8c5ca890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x5561e67b3000
+brk(0x5561e67d4000)                     = 0x5561e67d4000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=10281936, ...}) = 0
+mmap(NULL, 10281936, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7a8b18e000
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+fstat(2, {st_mode=S_IFREG|0644, st_size=7020, ...}) = 0
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "5561e4dc0000-5561e4dc1000 r-xp 0"..., 1024) = 1024
+read(3, "---p 00009000 08:01 922509      "..., 1024) = 1024
+read(3, ".2\n7f7a8c5b6000-7f7a8c5b7000 r--"..., 1024) = 1024
+read(3, "     /lib/x86_64-linux-gnu/libc-"..., 1024) = 1024
+read(3, "00 08:01 922471                 "..., 1024) = 443
+close(3)                                = 0
+sched_getaffinity(9393, 32, [0])        = 8
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+rt_sigaction(SIGVTALRM, {sa_handler=0x7f7a8cd41a20, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7a8d186000
+brk(0x5561e67f8000)                     = 0x5561e67f8000
+brk(0x5561e67f4000)                     = 0x5561e67f4000
+brk(0x5561e6818000)                     = 0x5561e6818000
+brk(0x5561e6814000)                     = 0x5561e6814000
+brk(0x5561e6838000)                     = 0x5561e6838000
+brk(0x5561e6834000)                     = 0x5561e6834000
+clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {tv_sec=0, tv_nsec=4025195}) = 0
+brk(0x5561e685e000)                     = 0x5561e685e000
+getrandom("\xf3\x8f\x05\x43\xc6\xfb\x3d\x48\xbb\x7c\x9c\xb9\x38\xce\x8b\xa3", 16, 0) = 16
+getpid()                                = 9393
+brk(0x5561e687f000)                     = 0x5561e687f000
+brk(0x5561e68a0000)                     = 0x5561e68a0000
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, 0x7ffcad83c1d0)        = -1 ENOTTY (Inappropriate ioctl for device)
+brk(0x5561e68c3000)                     = 0x5561e68c3000
+getrandom("\xf6\x72\xb4\x15\x84\x19\x77\x65\xd0\x2c\x6e\xd8\x81\xd5\xed\xb9", 16, 0) = 16
+getpid()                                = 9393
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x7f7a8cd15680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGHUP, {sa_handler=0x7f7a8cd15680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=0x7f7a8cd15680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x7f7a8cd15680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGALRM, {sa_handler=0x7f7a8cd15680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR1, {sa_handler=0x7f7a8cd15680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR2, {sa_handler=0x7f7a8cd15680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x7f7a8cd159b0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGILL, {sa_handler=0x7f7a8cd15850, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+sigaltstack({ss_sp=0x5561e681fea0, ss_flags=0, ss_size=16384}, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x7f7a8cd15960, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=0x7f7a8cd155f0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSYS, {sa_handler=0x7f7a8cd155f0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe2([3, 4], O_CLOEXEC)                = 0
+fcntl(3, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(4, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(4, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+pipe2([5, 6], O_CLOEXEC)                = 0
+fcntl(5, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(6, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(6, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+mmap(NULL, 20480, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f7a8d29b000
+mprotect(0x7f7a8d29c000, 16384, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7f7a8d29efb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7a8d29f9d0, tls=0x7f7a8d29f700, child_tidptr=0x7f7a8d29f9d0) = 9394
+getpid()                                = 9393
+geteuid()                               = 1000
+getegid()                               = 1000
+brk(0x5561e68e4000)                     = 0x5561e68e4000
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib/site_ruby", 0x7ffcad83acd0) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib/x86_64-linux-gnu", 0x7ffcad83acd0) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib/site_ruby", 0x7ffcad83acd0) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=65536, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=65536, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/enc/encdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/enc/encdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/enc/encdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/enc/encdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/enc/encdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/enc/encdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/enc/encdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/encdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=9920, ...}) = 0
+close(7)                                = 0
+futex(0x7f7a8c3360c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/encdb.so", O_RDONLY|O_CLOEXEC) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\6\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=9920, ...}) = 0
+mmap(NULL, 2105360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7f7a8af8b000
+mprotect(0x7f7a8af8d000, 2093056, PROT_NONE) = 0
+mmap(0x7f7a8b18c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1000) = 0x7f7a8b18c000
+close(7)                                = 0
+mprotect(0x7f7a8b18c000, 4096, PROT_READ) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/enc/trans/transdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/enc/trans/transdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/enc/trans/transdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/enc/trans/transdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/enc/trans/transdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/enc/trans/transdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/enc/trans/transdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/trans/transdb.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=14016, ...}) = 0
+close(7)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\5\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=14016, ...}) = 0
+mmap(NULL, 2109456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7f7a8ad87000
+mprotect(0x7f7a8ad89000, 2097152, PROT_NONE) = 0
+mmap(0x7f7a8af89000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x2000) = 0x7f7a8af89000
+close(7)                                = 0
+mprotect(0x7f7a8af89000, 4096, PROT_READ) = 0
+brk(0x5561e6905000)                     = 0x5561e6905000
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=37445, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=37445, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad83a570)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n# "..., 8192) = 8192
+brk(0x5561e692c000)                     = 0x5561e692c000
+read(7, "\n        msg = bundler_message\n "..., 8192) = 8192
+read(7, "e\n      ['HOME', 'USERPROFILE']."..., 8192) = 8192
+read(7, "ontaining the API compatibility "..., 8192) = 8192
+brk(0x5561e6958000)                     = 0x5561e6958000
+read(7, "attr_reader :gemdeps\n\n    ##\n   "..., 8192) = 4677
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems.rb", {st_mode=S_IFREG|0644, st_size=37445, ...}) = 0
+brk(0x5561e6979000)                     = 0x5561e6979000
+brk(0x5561e699a000)                     = 0x5561e699a000
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=13772, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/rbconfig.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=13772, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# encoding: ascii-8bit\n# frozen-"..., 8192) = 8192
+read(7, "\n  CONFIG[\"try_header\"] = \"\"\n  C"..., 8192) = 5580
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=65536, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby/2.5.0/rbconfig.rb", {st_mode=S_IFREG|0644, st_size=13772, ...}) = 0
+brk(0x5561e69bb000)                     = 0x5561e69bb000
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/compatibility.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/compatibility.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/compatibility.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/compatibility.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/compatibility.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/compatibility.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/compatibility.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1695, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/compatibility.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1695, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n# "..., 8192) = 1695
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/compatibility.rb", {st_mode=S_IFREG|0644, st_size=1695, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/defaults.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/defaults.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/defaults.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/defaults.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/defaults.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/defaults.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/defaults.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4563, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/defaults.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=4563, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\nmo"..., 8192) = 4563
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/defaults.rb", {st_mode=S_IFREG|0644, st_size=4563, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/deprecate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/deprecate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/deprecate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/deprecate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/deprecate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/deprecate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/deprecate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1772, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/deprecate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1772, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n##"..., 8192) = 1772
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/deprecate.rb", {st_mode=S_IFREG|0644, st_size=1772, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/errors.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/errors.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/errors.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/errors.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/errors.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/errors.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/errors.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4735, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/errors.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=4735, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n#-"..., 8192) = 4735
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/errors.rb", {st_mode=S_IFREG|0644, st_size=4735, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=84629, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=84629, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# -*- coding: utf-8 -*-\n# frozen"..., 8192) = 8192
+read(7, "list of authors, ensuring it is "..., 8192) = 8192
+read(7, "n bin/rake); all application-sty"..., 8192) = 8192
+read(7, "@stubs_by_name[name] || []\n    e"..., 8192) = 8192
+brk(0x5561e69e4000)                     = 0x5561e69e4000
+read(7, "Loads Ruby format gemspec from +"..., 8192) = 8192
+read(7, "lf.runtime_dependencies.each do "..., 8192) = 8192
+read(7, "object with one-day resolution.\n"..., 8192) = 8192
+mmap(NULL, 200704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7a8d155000
+read(7, "  end\n    end\n  end\n\n  def base_"..., 8192) = 8192
+read(7, "ile.join spec_dir, \"#{full_name}"..., 8192) = 8192
+read(7, "s.delete_if       { |x| File.dir"..., 8192) = 8192
+read(7, "  end\n    if warning_messages.an"..., 8192) = 2709
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/specification.rb", {st_mode=S_IFREG|0644, st_size=84629, ...}) = 0
+brk(0x5561e6a05000)                     = 0x5561e6a05000
+brk(0x5561e6a2b000)                     = 0x5561e6a2b000
+brk(0x5561e6a28000)                     = 0x5561e6a28000
+brk(0x5561e6a49000)                     = 0x5561e6a49000
+brk(0x5561e6a48000)                     = 0x5561e6a48000
+munmap(0x7f7a8d155000, 200704)          = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=12256, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=12256, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839090)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n##"..., 8192) = 8192
+read(7, " = self.segments\n               "..., 8192) = 4064
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/version.rb", {st_mode=S_IFREG|0644, st_size=12256, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/requirement.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/requirement.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/requirement.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/requirement.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/requirement.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/requirement.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/requirement.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=6750, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/requirement.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=6750, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839090)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\nre"..., 8192) = 6750
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/requirement.rb", {st_mode=S_IFREG|0644, st_size=6750, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/platform.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/platform.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/platform.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/platform.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/platform.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/platform.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/platform.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=6395, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/platform.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=6395, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839090)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\nre"..., 8192) = 6395
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/platform.rb", {st_mode=S_IFREG|0644, st_size=6395, ...}) = 0
+brk(0x5561e6a6b000)                     = 0x5561e6a6b000
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/basic_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/basic_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/basic_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/basic_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/basic_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/basic_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/basic_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=7536, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/basic_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=7536, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839090)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n##"..., 8192) = 7536
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/basic_specification.rb", {st_mode=S_IFREG|0644, st_size=7536, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/stub_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/stub_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/stub_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/stub_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/stub_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/stub_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/stub_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4981, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/stub_specification.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=4981, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839090)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n##"..., 8192) = 4981
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/stub_specification.rb", {st_mode=S_IFREG|0644, st_size=4981, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/util/list.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/util/list.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/util/list.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/util/list.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/util/list.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/util/list.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/util/list.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=584, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/util/list.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=584, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839090)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\nmo"..., 8192) = 584
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/util", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/util/list.rb", {st_mode=S_IFREG|0644, st_size=584, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/stringio.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/stringio.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/stringio.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/stringio.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/stringio.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/stringio.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/stringio.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/stringio.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/stringio.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/stringio.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/stringio.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/stringio.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/stringio.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/stringio.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/stringio.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/stringio.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=34728, ...}) = 0
+close(7)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/stringio.so", O_RDONLY|O_CLOEXEC) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200!\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0644, st_size=34728, ...}) = 0
+mmap(NULL, 2130024, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7f7a8ab7e000
+mprotect(0x7f7a8ab85000, 2097152, PROT_NONE) = 0
+mmap(0x7f7a8ad85000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x7000) = 0x7f7a8ad85000
+close(7)                                = 0
+mprotect(0x7f7a8ad85000, 4096, PROT_READ) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=3174, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=3174, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839090)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 3174
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri.rb", {st_mode=S_IFREG|0644, st_size=3174, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/common.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/common.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/common.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/common.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/common.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/common.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/common.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=20458, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/common.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=20458, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad838620)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 8192
+read(7, "BLDECWWWCOMP_['%%%x%X' % [h, l]]"..., 8192) = 8192
+brk(0x5561e6a91000)                     = 0x5561e6a91000
+read(7, "13\"=>\"iso-8859-13\",\n    \"iso-885"..., 8192) = 4074
+brk(0x5561e6ad6000)                     = 0x5561e6ad6000
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/common.rb", {st_mode=S_IFREG|0644, st_size=20458, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/rfc2396_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/rfc2396_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/rfc2396_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/rfc2396_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/rfc2396_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/rfc2396_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/rfc2396_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=17797, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/rfc2396_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=17797, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad837bb0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 8192
+read(7, "    # +str+::\n    #    String to"..., 8192) = 8192
+read(7, "s*\\z', Regexp::EXTENDED)\n\n      "..., 8192) = 1413
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/rfc2396_parser.rb", {st_mode=S_IFREG|0644, st_size=17797, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/rfc3986_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/rfc3986_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/rfc3986_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/rfc3986_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/rfc3986_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/rfc3986_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=6348, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=6348, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad837bb0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\nm"..., 8192) = 6348
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb", {st_mode=S_IFREG|0644, st_size=6348, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/generic.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/generic.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/generic.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/generic.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/generic.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/generic.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/generic.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=36849, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/generic.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=36849, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad838620)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n\n#"..., 8192) = 8192
+read(7, "   def set_scheme(v)\n      @sche"..., 8192) = 8192
+brk(0x5561e6afe000)                     = 0x5561e6afe000
+read(7, "eturn true\n    end\n    private :"..., 8192) = 8192
+read(7, "path.push('') if add_trailer_sla"..., 8192) = 8192
+brk(0x5561e6b21000)                     = 0x5561e6b21000
+read(7, "x')\n    #   p uri.select(:userin"..., 8192) = 4081
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/generic.rb", {st_mode=S_IFREG|0644, st_size=36849, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/ftp.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/ftp.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/ftp.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/ftp.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/ftp.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/ftp.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/ftp.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=7257, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/ftp.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=7257, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad838620)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 7257
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/ftp.rb", {st_mode=S_IFREG|0644, st_size=7257, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/http.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/http.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/http.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/http.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/http.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/http.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/http.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2440, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/http.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2440, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad838620)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 2440
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/http.rb", {st_mode=S_IFREG|0644, st_size=2440, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/https.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/https.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/https.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/https.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/https.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/https.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/https.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=611, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/https.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=611, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad838620)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 611
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/https.rb", {st_mode=S_IFREG|0644, st_size=611, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/ldap.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/ldap.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/ldap.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/ldap.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/ldap.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/ldap.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/ldap.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=5904, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/ldap.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=5904, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad838620)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 5904
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/ldap.rb", {st_mode=S_IFREG|0644, st_size=5904, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/ldaps.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/ldaps.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/ldaps.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/ldaps.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/ldaps.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/ldaps.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/ldaps.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=501, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/ldaps.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=501, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad838620)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 501
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/ldaps.rb", {st_mode=S_IFREG|0644, st_size=501, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/uri/mailto.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/uri/mailto.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/uri/mailto.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/uri/mailto.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/uri/mailto.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/uri/mailto.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/mailto.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=8061, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/uri/mailto.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=8061, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad838620)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 8061
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/uri/mailto.rb", {st_mode=S_IFREG|0644, st_size=8061, ...}) = 0
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+read(7, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 2403
+lseek(7, -1520, SEEK_CUR)               = 883
+read(7, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 1520
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/exceptions.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/exceptions.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/exceptions.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/exceptions.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/exceptions.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/exceptions.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/exceptions.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=6539, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/exceptions.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=6539, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n# "..., 8192) = 6539
+brk(0x5561e6b43000)                     = 0x5561e6b43000
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/exceptions.rb", {st_mode=S_IFREG|0644, st_size=6539, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/defaults/operating_system.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/defaults/operating_system.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/defaults/operating_system.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/defaults/operating_system.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/defaults/operating_system.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1428, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1428, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "unless ENV['DEBIAN_DISABLE_RUBYG"..., 8192) = 1428
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/rubygems/defaults", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb", {st_mode=S_IFREG|0644, st_size=1428, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/defaults/ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/defaults/ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/defaults/ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/defaults/ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/rubygems/defaults/ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/defaults/ruby.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/defaults/ruby.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/defaults/ruby.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/defaults/ruby.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/defaults/ruby.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/defaults/ruby.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/defaults/ruby.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/2.5.0/rubygems/defaults/ruby.so", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+fcntl(7, F_GETFL)                       = 0x18000 (flags O_RDONLY|O_LARGEFILE|O_DIRECTORY)
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+brk(0x5561e6b69000)                     = 0x5561e6b69000
+getdents(7, /* 24 entries */, 32768)    = 984
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/cmath-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1465, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/cmath-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838df0)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1465, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1465) = 1465
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/dependency.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/dependency.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/dependency.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/dependency.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/dependency.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/dependency.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/dependency.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=8584, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/dependency.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=8584, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad837590)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n##"..., 8192) = 8192
+read(7, "    matches = self.to_specs.comp"..., 8192) = 392
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/dependency.rb", {st_mode=S_IFREG|0644, st_size=8584, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/json-2.1.0.gemspec", {st_mode=S_IFREG|0644, st_size=5473, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/json-2.1.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=5473, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 5473) = 5473
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+brk(0x5561e6b8a000)                     = 0x5561e6b8a000
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/rdoc-6.0.1.gemspec", {st_mode=S_IFREG|0644, st_size=11353, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/rdoc-6.0.1.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=11353, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 11353) = 11353
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+sysinfo({uptime=1532, loads=[15840, 14464, 20704], totalram=5155901440, freeram=2389778432, sharedram=7036928, bufferram=84377600, totalswap=2147479552, freeswap=2147479552, procs=485, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/openssl-2.1.0.gemspec", {st_mode=S_IFREG|0644, st_size=4373, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/openssl-2.1.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=4373, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 4373) = 4373
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+brk(0x5561e6bab000)                     = 0x5561e6bab000
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/sdbm-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1560, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/sdbm-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1560, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1560) = 1560
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/bigdecimal-1.3.4.gemspec", {st_mode=S_IFREG|0644, st_size=2387, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/bigdecimal-1.3.4.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2387, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 2387) = 2387
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/gdbm-2.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1762, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/gdbm-2.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1762, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1762) = 1762
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/fileutils-1.0.2.gemspec", {st_mode=S_IFREG|0644, st_size=1436, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/fileutils-1.0.2.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1436, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1436) = 1436
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/fcntl-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1645, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/fcntl-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1645, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1645) = 1645
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/dbm-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1451, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/dbm-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1451, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1451) = 1451
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/zlib-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1854, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/zlib-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1854, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1854) = 1854
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/scanf-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1523, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/scanf-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1523, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1523) = 1523
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/fiddle-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=2517, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/fiddle-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2517, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 2517) = 2517
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/psych-3.0.2.gemspec", {st_mode=S_IFREG|0644, st_size=4423, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/psych-3.0.2.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=4423, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 4423) = 4423
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/webrick-1.4.2.gemspec", {st_mode=S_IFREG|0644, st_size=2754, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/webrick-1.4.2.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2754, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 2754) = 2754
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/stringio-0.0.1.gemspec", {st_mode=S_IFREG|0644, st_size=1265, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/stringio-0.0.1.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1265, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1265) = 1265
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/strscan-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1313, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/strscan-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1313, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1313) = 1313
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/ipaddr-1.2.0.gemspec", {st_mode=S_IFREG|0644, st_size=1687, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/ipaddr-1.2.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1687, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1687) = 1687
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/csv-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1245, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/csv-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1245, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1245) = 1245
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/etc-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=2074, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/etc-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2074, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 2074) = 2074
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/io-console-0.4.6.gemspec", {st_mode=S_IFREG|0644, st_size=1579, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/io-console-0.4.6.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1579, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1579) = 1579
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/usr/lib/ruby/gems/2.5.0/specifications/default/date-1.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=1517, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default/date-1.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad838e60)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1517, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 1517) = 1517
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2567, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2567, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n##"..., 8192) = 2567
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/core_ext", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_gem.rb", {st_mode=S_IFREG|0644, st_size=2567, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4139, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=4139, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839b00)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n#-"..., 8192) = 4139
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/core_ext", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb", {st_mode=S_IFREG|0644, st_size=4139, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/monitor.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/monitor.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/monitor.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/monitor.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/monitor.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/monitor.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/monitor.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=7432, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/monitor.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=7432, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839090)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: false\n#"..., 8192) = 7432
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/monitor.rb", {st_mode=S_IFREG|0644, st_size=7432, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/ruby/gems/2.5.0/specifications/default", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+fcntl(7, F_GETFL)                       = 0x18000 (flags O_RDONLY|O_LARGEFILE|O_DIRECTORY)
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+getdents(7, /* 24 entries */, 32768)    = 984
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/rubygems/path_support.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/rubygems/path_support.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/rubygems/path_support.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/rubygems/path_support.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/rubygems/path_support.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/rubygems/path_support.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/path_support.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1766, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/rubygems/path_support.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1766, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839af0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n##"..., 8192) = 1766
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/rubygems/path_support.rb", {st_mode=S_IFREG|0644, st_size=1766, ...}) = 0
+stat("/home/tj", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/ruby/vendor_ruby/gems/2.5.0", 0x7ffcad83a0e0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/tj/.gem/ruby/2.5.0/specifications", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/var/lib/gems/2.5.0/specifications", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/rubygems-integration/2.5.0/specifications", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/rubygems-integration/2.5.0/specifications", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/specifications", O_RDONLY|O_CLOEXEC|O_DIRECTORY) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+fcntl(7, F_GETFL)                       = 0x18000 (flags O_RDONLY|O_LARGEFILE|O_DIRECTORY)
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+getdents(7, /* 8 entries */, 32768)     = 328
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/specifications/did_you_mean-1.2.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad839100)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 8192) = 4294
+close(7)                                = 0
+stat("/usr/share/rubygems-integration/all/specifications/did_you_mean-1.2.0.gemspec", {st_mode=S_IFREG|0644, st_size=4294, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/specifications/did_you_mean-1.2.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+ioctl(7, TCGETS, 0x7ffcad839ea0)        = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=4294, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n# stub"..., 4294) = 4294
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2403, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems-integration", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems-integration/all", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems-integration/all/gems", 0x7ffcad83a620) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib/site_ruby", 0x7ffcad83a620) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib/x86_64-linux-gnu", 0x7ffcad83a620) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib/site_ruby", 0x7ffcad83a620) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=65536, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=65536, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/x86_64-linux-gnu/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1240, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1240, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad83a5e0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "require \"did_you_mean/version\"\nr"..., 8192) = 1240
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean.rb", {st_mode=S_IFREG|0644, st_size=1240, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=42, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/version.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=42, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839be0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "module DidYouMean\n  VERSION = \"1"..., 8192) = 42
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/version.rb", {st_mode=S_IFREG|0644, st_size=42, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/core_ext/name_error.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/core_ext/name_error.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/core_ext/name_error.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/core_ext/name_error.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/core_ext/name_error.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/core_ext/name_error.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/core_ext/name_error.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839be0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "module DidYouMean\n  module Corre"..., 8192) = 499
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/core_ext", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/core_ext/name_error.rb", {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/spell_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/spell_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/spell_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/spell_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1324, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1324, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839be0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen-string-literal: true\n\nr"..., 8192) = 1324
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checker.rb", {st_mode=S_IFREG|0644, st_size=1324, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/levenshtein.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/levenshtein.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/levenshtein.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/levenshtein.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/levenshtein.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/levenshtein.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/levenshtein.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1377, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/levenshtein.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1377, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad8391e0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "module DidYouMean\n  module Leven"..., 8192) = 1377
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/levenshtein.rb", {st_mode=S_IFREG|0644, st_size=1377, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/jaro_winkler.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/jaro_winkler.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/jaro_winkler.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/jaro_winkler.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/jaro_winkler.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/jaro_winkler.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/jaro_winkler.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1833, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/jaro_winkler.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1833, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad8391e0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "module DidYouMean\n  module Jaro\n"..., 8192) = 1833
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/jaro_winkler.rb", {st_mode=S_IFREG|0644, st_size=1833, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/spell_checkers/name_error_checkers.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/spell_checkers/name_error_checkers.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/spell_checkers/name_error_checkers.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=605, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=605, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839be0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "require 'did_you_mean/spell_chec"..., 8192) = 605
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers.rb", {st_mode=S_IFREG|0644, st_size=605, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1047, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1047, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad8391e0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen-string-literal: true\nre"..., 8192) = 1047
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb", {st_mode=S_IFREG|0644, st_size=1047, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=10695, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/2.5.0/delegate.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=10695, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad8387e0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen_string_literal: true\n# "..., 8192) = 8192
+read(7, " only want to change delegation\n"..., 8192) = 2503
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/2.5.0/delegate.rb", {st_mode=S_IFREG|0644, st_size=10695, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=1043, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1043, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad8391e0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen-string-literal: true\n\nr"..., 8192) = 1043
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb", {st_mode=S_IFREG|0644, st_size=1043, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/spell_checkers/method_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/spell_checkers/method_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/spell_checkers/method_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/spell_checkers/method_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/method_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/method_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/method_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=786, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/method_name_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=786, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839be0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "require \"did_you_mean/spell_chec"..., 8192) = 786
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/method_name_checker.rb", {st_mode=S_IFREG|0644, st_size=786, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/spell_checkers/key_error_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/spell_checkers/key_error_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/spell_checkers/key_error_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/spell_checkers/key_error_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/key_error_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/key_error_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/key_error_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/key_error_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839be0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "require \"did_you_mean/spell_chec"..., 8192) = 310
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/key_error_checker.rb", {st_mode=S_IFREG|0644, st_size=310, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/spell_checkers/null_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/spell_checkers/null_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/spell_checkers/null_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/spell_checkers/null_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/null_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/spell_checkers/null_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/null_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=104, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/null_checker.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=104, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839be0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "module DidYouMean\n  class NullCh"..., 8192) = 104
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/null_checker.rb", {st_mode=S_IFREG|0644, st_size=104, ...}) = 0
+openat(AT_FDCWD, "/usr/share/rubygems-integration/all/gems/did_you_mean-1.2.0/lib/did_you_mean/formatters/plain_formatter.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/2.5.0/did_you_mean/formatters/plain_formatter.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/x86_64-linux-gnu/site_ruby/did_you_mean/formatters/plain_formatter.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/site_ruby/did_you_mean/formatters/plain_formatter.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/2.5.0/did_you_mean/formatters/plain_formatter.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0/did_you_mean/formatters/plain_formatter.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/formatters/plain_formatter.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=215, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ruby/vendor_ruby/did_you_mean/formatters/plain_formatter.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=215, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad839be0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# frozen-string-literal: true\n\nm"..., 8192) = 215
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/formatters", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib/ruby/vendor_ruby/did_you_mean/formatters/plain_formatter.rb", {st_mode=S_IFREG|0644, st_size=215, ...}) = 0
+openat(AT_FDCWD, "hello_ruby.rb", O_RDONLY|O_NONBLOCK|O_CLOEXEC) = 7
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=20, ...}) = 0
+ioctl(7, TCGETS, 0x7ffcad83b0d0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "puts 'Hello world!'\n", 8192)  = 20
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+getcwd("/home/tj/school/cs345/week02", 4096) = 29
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/tj", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/tj/school", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/tj/school/cs345", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/tj/school/cs345/week02", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/tj/school/cs345/week02/hello_ruby.rb", {st_mode=S_IFREG|0644, st_size=20, ...}) = 0
+writev(1, [{iov_base="Hello world!", iov_len=12}, {iov_base="\n", iov_len=1}], 2) = 13
+rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7a8c815f20}, {sa_handler=0x7f7a8cd15680, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f7a8c815f20}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7a8c815f20}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f7a8c815f20}, 8) = 0
+close(4)                                = 0
+close(6)                                = 0
+munmap(0x7f7a8d186000, 1052672)         = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
